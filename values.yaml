@@ -16,6 +16,7 @@ ingress:
     tlsSecretName: ''
     annotations:
       kubernetes.io/ingress.global-static-ip-name: address-name
+      kubernetes.io/ingress.class: "gce"
 
 cartsdb:
     image:
