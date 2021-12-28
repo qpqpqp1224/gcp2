@@ -14,6 +14,8 @@ ingress:
     labels: {}
     host: ''
     tlsSecretName: ''
+    annotaions:
+      kubernetes.io/ingress.global-static-ip-name: address-name
 
 cartsdb:
     image:
